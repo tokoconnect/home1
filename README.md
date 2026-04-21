@@ -1,2 +1,1282 @@
 # home1
 claude
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>所沢 引越し・引っ越しならconnect｜格安単身引越し・軽トラ引越し対応【当日OK】</title>
+<meta name="description" content="所沢で格安引越しならconnect。軽バン最安6,000円～・軽トラ最安10,000円～。単身引越し・軽トラ引越し・家具家電のみも対応。当日・翌日相談OK。生活保護・老人ホーム・介護施設引越しも対応。代表が見積から現場まで一貫対応。埼玉・東京エリア対応。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  "name": "所沢引越しconnect",
+  "url": "https://sites.google.com/view/connect-transporter",
+  "telephone": "080-9466-6110",
+  "email": "connect.yamaguchi@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "山口362",
+    "addressLocality": "所沢市",
+    "addressRegion": "埼玉県",
+    "addressCountry": "JP"
+  },
+  "areaServed": ["所沢市","入間市","狭山市","清瀬市","東村山市","小平市","東大和市"],
+  "priceRange": "¥6,000〜"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "所沢の引越し・引っ越しは当日でも相談できますか？",
+      "acceptedAnswer": {"@type": "Answer","text": "はい、当日・翌日のご相談も受け付けております。まずはお電話またはLINEにてご連絡ください。"}
+    },
+    {
+      "@type": "Question",
+      "name": "単身引越し・引っ越しの料金はどれくらいですか？",
+      "acceptedAnswer": {"@type": "Answer","text": "軽バンプランは最安6,000円〜、軽トラプランは最安10,000円〜です。距離・荷物量・オプションにより変動します。"}
+    },
+    {
+      "@type": "Question",
+      "name": "冷蔵庫だけ・タンスだけでも頼めますか？",
+      "acceptedAnswer": {"@type": "Answer","text": "はい、大物1点からご対応可能です。冷蔵庫・タンス・ソファなど単品運搬もお気軽にご相談ください。"}
+    },
+    {
+      "@type": "Question",
+      "name": "生活保護の引越し、生保の引越しにも対応できますか？",
+      "acceptedAnswer": {"@type": "Answer","text": "はい、生活保護の引越しにも対応しております。各種書類等についてもお気軽にご相談ください。"}
+    },
+    {
+      "@type": "Question",
+      "name": "老人ホーム引越しや介護施設引越しも相談できますか？",
+      "acceptedAnswer": {"@type": "Answer","text": "はい、老人ホームや介護施設への入退去の引越しも対応しております。荷物量が少量でも対応可能です。"}
+    },
+    {
+      "@type": "Question",
+      "name": "レンタルコンテナやトランクルームへの移動もできますか？",
+      "acceptedAnswer": {"@type": "Answer","text": "はい、レンタルコンテナ・トランクルームへの荷物の移動・搬入にも対応しております。"}
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --red: #E8200C;
+  --red-dark: #C01A09;
+  --red-light: #FF3D27;
+  --black: #111111;
+  --dark: #1A1A1A;
+  --gray: #444;
+  --gray-light: #888;
+  --bg: #F7F5F2;
+  --white: #FFFFFF;
+  --yellow: #FFD600;
+  --green: #00B050;
+  --line-green: #06C755;
+  --border: #E0DDD8;
+  --card-bg: #FFFFFF;
+  --shadow: 0 4px 24px rgba(0,0,0,0.10);
+  --shadow-strong: 0 8px 40px rgba(0,0,0,0.18);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: var(--bg);
+  color: var(--black);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== STICKY HEADER ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--black);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+.site-header .logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  color: var(--white);
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+.site-header .logo span { color: var(--red); }
+.header-tel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header-tel a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 7px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: var(--black);
+  color: var(--white);
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 20px,
+    rgba(255,255,255,0.015) 20px,
+    rgba(255,255,255,0.015) 40px
+  );
+  pointer-events: none;
+}
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  padding: 28px 20px 0;
+}
+.hero-badge {
+  display: inline-block;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 2px;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+.hero h1 {
+  font-size: 1.45rem;
+  font-weight: 900;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+.hero h1 em {
+  color: var(--red);
+  font-style: normal;
+}
+.hero-sub {
+  font-size: 0.88rem;
+  color: #BBB;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* PRICE BLOCK */
+.hero-prices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.price-card {
+  background: rgba(255,255,255,0.06);
+  border: 1.5px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 14px 12px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.price-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--red);
+}
+.price-card .vehicle {
+  font-size: 0.7rem;
+  color: #AAA;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.price-card .amount {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--yellow);
+  line-height: 1;
+}
+.price-card .amount sup { font-size: 0.9rem; }
+.price-card .amount-sub { font-size: 0.75rem; color: #AAA; margin-top: 2px; }
+
+/* CTA BUTTONS */
+.cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 0 24px;
+}
+.btn-tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--red);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 900;
+  padding: 16px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 20px rgba(232,32,12,0.4);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn-tel:active { transform: scale(0.98); }
+.btn-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--line-green);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 14px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(6,199,85,0.3);
+}
+.btn-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.3);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* HERO FEATURES STRIP */
+.hero-features {
+  background: var(--red-dark);
+  padding: 12px 16px;
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.hero-features::-webkit-scrollbar { display: none; }
+.feat-item {
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 4px 12px;
+  border-right: 1px solid rgba(255,255,255,0.25);
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+}
+.feat-item:last-child { border-right: none; }
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 48px 16px;
+}
+.section-alt {
+  background: var(--white);
+}
+.section-dark {
+  background: var(--dark);
+  color: var(--white);
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--red);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.section-title {
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  letter-spacing: -0.01em;
+}
+.section-title span { color: var(--red); }
+.section-dark .section-title span { color: var(--yellow); }
+
+/* ===== APPEAL NUMBERS ===== */
+.appeal-strip {
+  background: var(--red);
+  padding: 20px 16px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1px;
+}
+.appeal-item {
+  text-align: center;
+  padding: 12px 8px;
+  background: var(--red);
+}
+.appeal-item .num {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--yellow);
+  line-height: 1;
+  display: block;
+}
+.appeal-item .num-unit { font-size: 0.9rem; }
+.appeal-item .label {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.85);
+  margin-top: 4px;
+  display: block;
+}
+
+/* ===== WHY CONNECT ===== */
+.reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 8px;
+}
+.reason-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 16px 14px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--red);
+}
+.reason-num {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--red);
+  line-height: 1;
+  flex: 0 0 32px;
+}
+.reason-body strong {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.reason-body p { font-size: 0.82rem; color: var(--gray); }
+
+/* ===== SERVICES ===== */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 8px;
+}
+.service-card {
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 16px 14px;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: var(--black);
+  display: block;
+  border-top: 3px solid var(--red);
+  transition: transform 0.15s;
+}
+.service-card:active { transform: scale(0.97); }
+.service-icon { font-size: 1.5rem; margin-bottom: 6px; display: block; }
+.service-card strong { font-size: 0.85rem; font-weight: 700; display: block; margin-bottom: 3px; }
+.service-card span { font-size: 0.72rem; color: var(--gray-light); }
+.service-card.full-width {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 3px solid var(--green);
+}
+.service-card.full-width .service-icon { font-size: 1.8rem; margin-bottom: 0; }
+
+/* ===== PRICE TABLE ===== */
+.price-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+.price-row {
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.price-row-head {
+  background: var(--black);
+  color: var(--white);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price-row-head strong { font-size: 0.9rem; font-weight: 700; }
+.price-row-head .tag {
+  background: var(--red);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+}
+.price-row-body {
+  padding: 14px 16px;
+  font-size: 0.82rem;
+  color: var(--gray);
+  line-height: 1.8;
+}
+.price-row-body .big-price {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  color: var(--red);
+  font-weight: 700;
+  margin-right: 4px;
+}
+.price-row-body .big-price span { font-size: 1rem; }
+
+/* ===== CASES ===== */
+.cases {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.case-card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 16px 16px;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+.case-card::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--red);
+}
+.case-route {
+  font-size: 0.78rem;
+  color: var(--gray-light);
+  margin-bottom: 6px;
+}
+.case-route strong { color: var(--black); font-weight: 700; }
+.case-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.case-price {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--red);
+  line-height: 1;
+}
+.case-plan { font-size: 0.75rem; color: var(--gray); }
+.case-items { font-size: 0.75rem; color: var(--gray); line-height: 1.7; }
+.case-vs {
+  display: inline-block;
+  background: #FFF3E0;
+  color: #C45000;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-top: 6px;
+}
+.price-note {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 0.78rem;
+  color: var(--gray);
+  line-height: 1.9;
+  box-shadow: var(--shadow);
+  margin-top: 4px;
+  border-left: 4px solid var(--yellow);
+}
+
+/* ===== SPECIAL ===== */
+.special-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.special-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 16px 14px;
+  text-align: center;
+}
+.special-icon { font-size: 1.6rem; display: block; margin-bottom: 6px; }
+.special-card strong { font-size: 0.83rem; color: var(--white); display: block; margin-bottom: 4px; }
+.special-card p { font-size: 0.72rem; color: rgba(255,255,255,0.6); }
+
+/* ===== AREA ===== */
+.area-block {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 20px 16px;
+  box-shadow: var(--shadow);
+}
+.area-block h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--red);
+  letter-spacing: 0.05em;
+}
+.area-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.area-tag {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  font-size: 0.78rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: var(--gray);
+}
+.area-note { font-size: 0.78rem; color: var(--gray-light); margin-top: 12px; }
+
+/* ===== REVIEWS ===== */
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.review-card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+.review-stars { color: var(--yellow); font-size: 0.9rem; margin-bottom: 6px; }
+.review-text { font-size: 0.82rem; color: var(--gray); line-height: 1.75; margin-bottom: 8px; }
+.review-meta { font-size: 0.72rem; color: var(--gray-light); }
+
+/* ===== FAQ ===== */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+details {
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+details summary {
+  list-style: none;
+  padding: 16px 16px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::before {
+  content: 'Q';
+  flex: 0 0 22px;
+  height: 22px;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 900;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+details[open] summary {
+  border-bottom: 1px solid var(--border);
+}
+.faq-answer {
+  padding: 14px 16px 14px 48px;
+  font-size: 0.83rem;
+  color: var(--gray);
+  line-height: 1.8;
+}
+
+/* ===== CTA SECTION ===== */
+.cta-section {
+  background: var(--red);
+  padding: 40px 16px;
+  text-align: center;
+}
+.cta-section h2 {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.cta-section p {
+  font-size: 0.83rem;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 24px;
+}
+.cta-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cta-tel-big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #fff;
+  color: var(--red);
+  font-size: 1.15rem;
+  font-weight: 900;
+  padding: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  letter-spacing: 0.05em;
+}
+.cta-line-big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--line-green);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.cta-form-big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.15);
+  border: 2px solid rgba(255,255,255,0.5);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.cta-note {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.7);
+  margin-top: 14px;
+  line-height: 1.7;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #0A0A0A;
+  color: #999;
+  padding: 32px 16px 24px;
+}
+.footer-logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.15rem;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-logo span { color: var(--red); }
+.footer-info {
+  font-size: 0.78rem;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.footer-info a { color: #ccc; text-decoration: none; }
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 20px;
+}
+.footer-nav a {
+  font-size: 0.75rem;
+  color: #777;
+  text-decoration: none;
+}
+.footer-copy {
+  font-size: 0.7rem;
+  color: #555;
+  border-top: 1px solid #222;
+  padding-top: 16px;
+}
+
+/* ===== FLOATING CTA ===== */
+.float-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  display: flex;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+}
+.float-cta a {
+  flex: 1;
+  padding: 14px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.float-cta a:active { opacity: 0.8; }
+.float-tel { background: var(--red); color: #fff; }
+.float-line { background: var(--line-green); color: #fff; }
+.float-form { background: var(--black); color: #fff; }
+.float-icon { font-size: 1.2rem; line-height: 1; }
+
+/* ===== DIVIDER ===== */
+.divider {
+  height: 4px;
+  background: linear-gradient(90deg, var(--red) 0%, var(--red-light) 50%, var(--yellow) 100%);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero-inner > * {
+  animation: fadeUp 0.5s ease both;
+}
+.hero-inner > *:nth-child(1) { animation-delay: 0.05s; }
+.hero-inner > *:nth-child(2) { animation-delay: 0.15s; }
+.hero-inner > *:nth-child(3) { animation-delay: 0.25s; }
+.hero-inner > *:nth-child(4) { animation-delay: 0.35s; }
+.hero-inner > *:nth-child(5) { animation-delay: 0.45s; }
+
+/* bottom padding for float cta */
+body { padding-bottom: 60px; }
+</style>
+
+</head>
+<body>
+
+<!-- STICKY HEADER -->
+
+<header class="site-header">
+  <div class="logo">所沢引越し<span>connect</span></div>
+  <div class="header-tel">
+    <a href="tel:08094666110">
+      <span>📞</span> 今すぐ電話
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">▶ 当日・翌日相談OK｜見積もり無料</div>
+    <h1>所沢 引越し・引っ越しなら<em>connect</em>｜格安単身引越し・軽トラ引越し対応<em>【当日OK】</em></h1>
+    <p class="hero-sub">代表が問い合わせから現場まで一貫対応。<br>冷蔵庫だけ・家具家電のみも対応。<br>単身・少量・近距離に特化した所沢の引越し屋です。</p>
+
+```
+<div class="hero-prices">
+  <div class="price-card">
+    <div class="vehicle">軽バン 格安単身引越し</div>
+    <div class="amount"><sup>最安</sup>6,000<sup>円〜</sup></div>
+    <div class="amount-sub">税込・近距離</div>
+  </div>
+  <div class="price-card">
+    <div class="vehicle">軽トラ 格安単身引越し</div>
+    <div class="amount"><sup>最安</sup>10,000<sup>円〜</sup></div>
+    <div class="amount-sub">税込・近距離</div>
+  </div>
+</div>
+
+<div class="cta-group">
+  <a href="tel:08094666110" class="btn-tel">📞 080-9466-6110｜今すぐ電話</a>
+  <a href="https://line.me/R/ti/p/" class="btn-line">💬 LINEで無料見積もり（かんたん）</a>
+  <a href="https://sites.google.com/view/connect-transporter/inquire" class="btn-form">✉ お問い合わせフォーム</a>
+</div>
+```
+
+  </div>
+
+  <div class="hero-features">
+    <span class="feat-item">✅ 所沢エリア対応</span>
+    <span class="feat-item">✅ 単身引越し</span>
+    <span class="feat-item">✅ 軽トラ引越し</span>
+    <span class="feat-item">✅ 軽バン引越し</span>
+    <span class="feat-item">✅ 積み切り対応</span>
+    <span class="feat-item">✅ 冷蔵庫だけOK</span>
+    <span class="feat-item">✅ 便利屋もまとめてOK</span>
+    <span class="feat-item">✅ 生活保護対応</span>
+    <span class="feat-item">✅ 老人ホーム対応</span>
+  </div>
+</section>
+
+<!-- APPEAL STRIP -->
+
+<div class="appeal-strip">
+  <div class="appeal-item">
+    <span class="num">500<span class="num-unit">件+</span></span>
+    <span class="label">年間引越し実績</span>
+  </div>
+  <div class="appeal-item">
+    <span class="num">★5</span>
+    <span class="label">口コミ高評価</span>
+  </div>
+  <div class="appeal-item">
+    <span class="num">当日<span class="num-unit">OK</span></span>
+    <span class="label">即日・翌日対応</span>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- WHY CONNECT -->
+
+<section class="section">
+  <span class="section-label">WHY CONNECT</span>
+  <h2 class="section-title">所沢でconnectが<span>選ばれる理由</span></h2>
+  <div class="reasons">
+    <div class="reason-item">
+      <div class="reason-num">01</div>
+      <div class="reason-body">
+        <strong>代表が見積もりから現場まで一貫対応</strong>
+        <p>石水（イシミズ）が問い合わせ・見積もり・当日の作業まですべて担当。「誰が来るか分からない」不安がありません。</p>
+      </div>
+    </div>
+    <div class="reason-item">
+      <div class="reason-num">02</div>
+      <div class="reason-body">
+        <strong>単身・少量・軽トラ引越しに特化</strong>
+        <p>大手が苦手な「荷物が少ない」「近距離だけ」「急いでいる」に対応。無駄なコストゼロで格安を実現。</p>
+      </div>
+    </div>
+    <div class="reason-item">
+      <div class="reason-num">03</div>
+      <div class="reason-body">
+        <strong>当日・翌日の急な引越しも相談OK</strong>
+        <p>「明日引越しになった」「今日だけ手が空いてる」そんなご相談もまずはお電話かLINEでご連絡ください。</p>
+      </div>
+    </div>
+    <div class="reason-item">
+      <div class="reason-num">04</div>
+      <div class="reason-body">
+        <strong>引越し＋便利屋作業をまとめて依頼できる</strong>
+        <p>家具の組立・分解、不用品回収、エアコン以外の家電脱着など、引越しと一緒にまとめて対応可能。</p>
+      </div>
+    </div>
+    <div class="reason-item">
+      <div class="reason-num">05</div>
+      <div class="reason-body">
+        <strong>他社見積もりお持ちの方はご相談を</strong>
+        <p>他社のお見積書をお見せいただければ、可能な限りお値引きして対応いたします。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+
+<section class="section section-alt">
+  <span class="section-label">SERVICES</span>
+  <h2 class="section-title">connectの<span>引越しサービス</span></h2>
+  <div class="services-grid">
+    <a href="https://sites.google.com/view/connect-transporter/tansin" class="service-card">
+      <span class="service-icon">🏠</span>
+      <strong>単身引越し</strong>
+      <span>軽バン・軽トラで格安対応</span>
+    </a>
+    <a href="https://sites.google.com/view/connect-transporter/keitora" class="service-card">
+      <span class="service-icon">🚛</span>
+      <strong>軽トラ引越し</strong>
+      <span>積み切り・近距離に強い</span>
+    </a>
+    <a href="https://sites.google.com/view/connect-transporter/keikamotuhikkosi" class="service-card">
+      <span class="service-icon">🚐</span>
+      <strong>軽バン引越し</strong>
+      <span>最安6,000円〜</span>
+    </a>
+    <a href="https://sites.google.com/view/connect-transporter/price" class="service-card">
+      <span class="service-icon">📦</span>
+      <strong>家具家電のみ</strong>
+      <span>冷蔵庫だけ・タンスだけOK</span>
+    </a>
+    <a href="https://sites.google.com/view/connect-transporter/benriya" class="service-card full-width">
+      <span class="service-icon">🔧</span>
+      <div>
+        <strong>便利屋サービス（引越し＋まとめてOK）</strong>
+        <span>家具組立・不用品・雑務もご相談ください</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- PRICE -->
+
+<section class="section">
+  <span class="section-label">PRICE</span>
+  <h2 class="section-title">所沢の格安引越し<br><span>料金の目安</span></h2>
+
+  <div class="price-overview">
+    <div class="price-row">
+      <div class="price-row-head">
+        <strong>🚐 軽バンプラン（少量・ダンボールのみ）</strong>
+        <span class="tag">最安値</span>
+      </div>
+      <div class="price-row-body">
+        <div><span class="big-price">6,000<span>円〜</span></span>（税込）</div>
+        近距離・ダンボールのみ等の少量引越しに。<br>
+        積み切り対応でコストを最小化。
+      </div>
+    </div>
+    <div class="price-row">
+      <div class="price-row-head">
+        <strong>🚛 軽トラプラン（単身・一般引越し）</strong>
+        <span class="tag">人気No.1</span>
+      </div>
+      <div class="price-row-body">
+        <div><span class="big-price">10,000<span>円〜</span></span>（税込）</div>
+        冷蔵庫・洗濯機・ベッドなど家具家電込みの一般的な単身引越し。<br>
+        オプションで洗濯機脱着・ベッド分解組立にも対応。
+      </div>
+    </div>
+  </div>
+
+  <div style="height:16px"></div>
+  <span class="section-label">REAL CASES</span>
+  <h3 style="font-size:1.05rem;font-weight:900;margin-bottom:14px;">実際の引越し料金事例</h3>
+
+  <div class="cases">
+    <div class="case-card">
+      <div class="case-route"><strong>所沢市 → 入間市</strong>　近距離・階段なし</div>
+      <div class="case-price-row">
+        <span class="case-price">15,000円</span>
+        <span class="case-plan">軽トラ Mプラン</span>
+      </div>
+      <div class="case-items">段ボール20箱・衣装ケース10ケース 等</div>
+      <span class="case-vs">大手見積もり 58,000円 → <strong>43,000円お得</strong></span>
+    </div>
+    <div class="case-card">
+      <div class="case-route"><strong>所沢市 → 入間市</strong>　近距離・階段なし</div>
+      <div class="case-price-row">
+        <span class="case-price">20,000円</span>
+        <span class="case-plan">軽トラ Lプラン</span>
+      </div>
+      <div class="case-items">ベッド・冷蔵庫・洗濯機・段ボール15箱 等</div>
+      <span class="case-vs">大手見積もり 58,000円 → <strong>38,000円お得</strong></span>
+    </div>
+    <div class="case-card">
+      <div class="case-route"><strong>所沢市 → 狭山市</strong></div>
+      <div class="case-price-row">
+        <span class="case-price">23,000円</span>
+        <span class="case-plan">軽トラ Lプラン＋洗濯機脱着</span>
+      </div>
+      <div class="case-items">冷蔵庫・洗濯機・カラーボックス・段ボール20箱 等</div>
+    </div>
+    <div class="case-card">
+      <div class="case-route"><strong>所沢市 → 東村山市</strong></div>
+      <div class="case-price-row">
+        <span class="case-price">27,000円</span>
+        <span class="case-plan">軽トラ Lプラン＋洗濯機脱着＋ベッド分解組立</span>
+      </div>
+      <div class="case-items">シングルベッド・冷蔵庫・洗濯機・衣装ケース・段ボール15箱 等</div>
+    </div>
+    <div class="case-card">
+      <div class="case-route"><strong>所沢市 → 清瀬市</strong>　積地2階・階段あり</div>
+      <div class="case-price-row">
+        <span class="case-price">29,000円</span>
+        <span class="case-plan">軽トラ Lプラン フルオプション</span>
+      </div>
+      <div class="case-items">一般的な単身引越しフルセット</div>
+    </div>
+    <div class="case-card">
+      <div class="case-route"><strong>所沢市 → 小平市</strong>　ダンボールのみ</div>
+      <div class="case-price-row">
+        <span class="case-price">10,000円</span>
+        <span class="case-plan">軽バン Mプラン・積み切り</span>
+      </div>
+      <div class="case-items">段ボール25箱</div>
+    </div>
+    <div class="case-card">
+      <div class="case-route"><strong>所沢市内</strong>　冷蔵庫1点のみ</div>
+      <div class="case-price-row">
+        <span class="case-price">10,000円</span>
+        <span class="case-plan">軽トラ Sプラン</span>
+      </div>
+      <div class="case-items">冷蔵庫だけ・タンスだけ・ソファーだけ等の大物1点運搬</div>
+    </div>
+  </div>
+
+  <div class="price-note">
+    ※ 他社のお見積書をお持ちの方は金額をお伝えください。可能な限りお値引きして対応します。<br>
+    ※ お客様にお手伝いいただける場合はさらに割引可能です。<br>
+    ※ 料金は移動距離・荷物量・階段・繁忙期 等により変動します。上記は参考例です。
+  </div>
+</section>
+
+<!-- SPECIAL NEEDS -->
+
+<section class="section section-dark">
+  <span class="section-label" style="color:var(--yellow)">SPECIAL SUPPORT</span>
+  <h2 class="section-title">こんな引越し・引っ越しも<br><span>ご相談ください</span></h2>
+  <div class="special-grid">
+    <div class="special-card">
+      <span class="special-icon">🧓</span>
+      <strong>高齢者・老人ホーム引越し</strong>
+      <p>施設への入退去も少量荷物から対応</p>
+    </div>
+    <div class="special-card">
+      <span class="special-icon">🏥</span>
+      <strong>介護施設引越し</strong>
+      <p>介護施設への移動・入居もご相談を</p>
+    </div>
+    <div class="special-card">
+      <span class="special-icon">📋</span>
+      <strong>生活保護の引越し</strong>
+      <p>生保・生活保護の引越しも対応します</p>
+    </div>
+    <div class="special-card">
+      <span class="special-icon">🎓</span>
+      <strong>学生・新社会人引越し</strong>
+      <p>荷物少なめの引越しを格安で</p>
+    </div>
+    <div class="special-card">
+      <span class="special-icon">📦</span>
+      <strong>レンタルコンテナ・トランクルーム</strong>
+      <p>コンテナへの搬入・搬出も対応</p>
+    </div>
+    <div class="special-card">
+      <span class="special-icon">♻️</span>
+      <strong>不用品・雑務</strong>
+      <p>引越しと一緒に不用品もご相談ください</p>
+    </div>
+  </div>
+
+  <!-- Mid CTA -->
+
+  <div style="margin-top:28px; display:flex; flex-direction:column; gap:10px;">
+    <a href="tel:08094666110" class="btn-tel">📞 080-9466-6110｜今すぐ電話</a>
+    <a href="https://line.me/R/ti/p/" class="btn-line">💬 LINEで無料見積もり</a>
+  </div>
+</section>
+
+<!-- AREA -->
+
+<section class="section section-alt">
+  <span class="section-label">AREA</span>
+  <h2 class="section-title">対応<span>エリア</span></h2>
+  <div class="area-block">
+    <h3>埼玉県エリア</h3>
+    <div class="area-tags">
+      <span class="area-tag">所沢市</span>
+      <span class="area-tag">入間市</span>
+      <span class="area-tag">狭山市</span>
+      <span class="area-tag">飯能市</span>
+      <span class="area-tag">新座市</span>
+      <span class="area-tag">朝霞市</span>
+      <span class="area-tag">志木市</span>
+      <span class="area-tag">和光市</span>
+      <span class="area-tag">富士見市</span>
+      <span class="area-tag">ふじみ野市</span>
+      <span class="area-tag">三芳町</span>
+    </div>
+    <h3 style="margin-top:16px">東京都エリア</h3>
+    <div class="area-tags">
+      <span class="area-tag">清瀬市</span>
+      <span class="area-tag">東村山市</span>
+      <span class="area-tag">東久留米市</span>
+      <span class="area-tag">小平市</span>
+      <span class="area-tag">西東京市</span>
+      <span class="area-tag">東大和市</span>
+    </div>
+    <p class="area-note">※ 上記エリアは出張交通費無料。その他エリアもご相談ください。離島・豪雪地域以外、全国対応可能です。</p>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+
+<section class="section">
+  <span class="section-label">REVIEWS</span>
+  <h2 class="section-title">お客様の<span>声</span></h2>
+  <div class="reviews">
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">急な引越しにも関わらず、翌日に対応していただきました。代表の方が丁寧に作業してくださり、料金も大手の半額以下で大満足です。</p>
+      <div class="review-meta">所沢市 / 20代 / 単身引越し</div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">冷蔵庫1台だけの運搬をお願いしました。他の業者は断られたのに快く対応してもらえました。料金も良心的で助かりました。</p>
+      <div class="review-meta">所沢市 / 30代 / 冷蔵庫単品運搬</div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">引越しと一緒にベッドの組立もお願いしました。手際よく丁寧にやっていただき、新居でその日から快適に過ごせました。リピートします！</p>
+      <div class="review-meta">入間市 / 20代 / 単身＋家具組立</div>
+    </div>
+  </div>
+  <p style="font-size:0.78rem;color:var(--gray-light);margin-top:12px;text-align:center;">
+    <a href="https://sites.google.com/view/connect-transporter/reviews" style="color:var(--red);text-decoration:none;font-weight:700;">▶ 口コミをもっと見る</a>
+  </p>
+</section>
+
+<!-- FAQ -->
+
+<section class="section section-alt">
+  <span class="section-label">FAQ</span>
+  <h2 class="section-title">よくある<span>質問</span></h2>
+  <div class="faq-list">
+    <details>
+      <summary>所沢の引越し・引っ越しは当日でも相談できますか？</summary>
+      <div class="faq-answer">はい、当日・翌日のご相談も受け付けております。空き状況によりますが、まずはお電話またはLINEにてお気軽にご連絡ください。</div>
+    </details>
+    <details>
+      <summary>単身引越し・引っ越しの料金はどれくらいですか？</summary>
+      <div class="faq-answer">軽バンプランは最安6,000円〜、軽トラプランは最安10,000円〜です。移動距離・荷物量・オプション内容により変動します。まずはお気軽にご相談ください。</div>
+    </details>
+    <details>
+      <summary>冷蔵庫だけ・タンスだけでも頼めますか？</summary>
+      <div class="faq-answer">はい、大物1点からご対応可能です。冷蔵庫・タンス・ソファ・テレビなど単品運搬もお気軽にご相談ください。所沢市内1点からでも対応しています。</div>
+    </details>
+    <details>
+      <summary>生活保護・生保の引越しにも対応できますか？</summary>
+      <div class="faq-answer">はい、生活保護の引越しにも対応しております。書類や手続きに関する不安な点もお気軽にご相談ください。</div>
+    </details>
+    <details>
+      <summary>老人ホーム引越しや介護施設引越しも相談できますか？</summary>
+      <div class="faq-answer">はい、老人ホームや介護施設への入退去の引越しも対応しております。荷物量が少量でもお気軽にご相談ください。ご家族からのご依頼も承ります。</div>
+    </details>
+    <details>
+      <summary>レンタルコンテナやトランクルームへの移動もできますか？</summary>
+      <div class="faq-answer">はい、レンタルコンテナ・トランクルームへの荷物の搬入・搬出・移動に対応しております。所沢市内・近隣エリアはお気軽にご相談ください。</div>
+    </details>
+    <details>
+      <summary>見積もりは無料ですか？しつこい営業はありますか？</summary>
+      <div class="faq-answer">見積もりは完全無料です。しつこい営業電話は一切しません。LINEやフォームでのご相談も、返信後に無理な勧誘は行いません。</div>
+    </details>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+
+<section class="cta-section" id="contact">
+  <h2>無料見積もり・ご相談はこちら</h2>
+  <p>電話・LINE・フォームのいずれかでお気軽にどうぞ。<br>見積もり無料・しつこい営業なし。</p>
+  <div class="cta-btns">
+    <a href="tel:08094666110" class="cta-tel-big">📞 080-9466-6110</a>
+    <a href="https://line.me/R/ti/p/" class="cta-line-big">💬 LINEで無料見積もり（かんたん30秒）</a>
+    <a href="https://sites.google.com/view/connect-transporter/inquire" class="cta-form-big">✉ お問い合わせフォーム</a>
+  </div>
+  <p class="cta-note">
+    受付時間：8:00〜20:00（年中無休）<br>
+    しつこい営業電話・勧誘は一切しません。
+  </p>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="footer-logo">所沢引越し<span>connect</span></div>
+  <div class="footer-info">
+    屋号：所沢引越しconnect<br>
+    代表：石水 友彦<br>
+    所在地：埼玉県所沢市山口362<br>
+    電話：<a href="tel:08094666110">080-9466-6110</a><br>
+    メール：<a href="mailto:connect.yamaguchi@gmail.com">connect.yamaguchi@gmail.com</a>
+  </div>
+  <nav class="footer-nav">
+    <a href="https://sites.google.com/view/connect-transporter/price">料金ページ</a>
+    <a href="https://sites.google.com/view/connect-transporter/tansin">単身引越し</a>
+    <a href="https://sites.google.com/view/connect-transporter/keitora">軽トラ引越し</a>
+    <a href="https://sites.google.com/view/connect-transporter/keikamotuhikkosi">軽貨物引越し</a>
+    <a href="https://sites.google.com/view/connect-transporter/benriya">便利屋コネクト</a>
+    <a href="https://sites.google.com/view/connect-transporter/welfare-moving">生活保護の引越し</a>
+    <a href="https://sites.google.com/view/connect-transporter/torankurentaru">トランクルーム引越し</a>
+    <a href="https://sites.google.com/view/connect-transporter/qa">よくある質問</a>
+    <a href="https://sites.google.com/view/connect-transporter/inquire">お問い合わせ</a>
+    <a href="https://sites.google.com/view/connect-transporter/ranking">所沢おすすめ引越し業者ランキング</a>
+  </nav>
+  <div class="footer-copy">© 所沢引越しconnect All Rights Reserved.</div>
+</footer>
+
+<!-- FLOATING CTA BAR -->
+
+<div class="float-cta">
+  <a href="tel:08094666110" class="float-tel">
+    <span class="float-icon">📞</span>
+    電話する
+  </a>
+  <a href="https://line.me/R/ti/p/" class="float-line">
+    <span class="float-icon">💬</span>
+    LINE見積もり
+  </a>
+  <a href="https://sites.google.com/view/connect-transporter/inquire" class="float-form">
+    <span class="float-icon">✉</span>
+    フォーム
+  </a>
+</div>
+
+</body>
+</html>
