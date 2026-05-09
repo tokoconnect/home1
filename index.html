@@ -56,6 +56,12 @@
 
 /* v16 reinforcement */
 .tm-proof-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}.tm-proof-item{background:#fff;border:1px solid rgba(30,64,175,.15);border-radius:16px;padding:14px;box-shadow:0 8px 22px rgba(15,23,42,.06)}.tm-proof-item strong{display:block;font-size:1.06rem;color:#0f2f76}.tm-proof-item span{display:block;color:var(--muted);font-size:.92rem;line-height:1.65;margin-top:4px}.tm-table-wrap{overflow-x:auto;border-radius:18px;border:1px solid var(--border);background:#fff;box-shadow:0 10px 28px rgba(15,23,42,.08);margin-top:16px}.tm-compare-table{width:100%;border-collapse:collapse;min-width:760px}.tm-compare-table th,.tm-compare-table td{padding:13px 12px;border-bottom:1px solid #e5e7eb;text-align:left;vertical-align:top;font-size:.94rem;line-height:1.65}.tm-compare-table th{background:#0f2f76;color:#fff;font-weight:800}.tm-compare-table td:last-child{background:#fff7ed;font-weight:700;color:#7c2d12}.tm-notice{border:2px solid #f97316;background:#fff7ed;border-radius:18px;padding:18px;margin-top:18px}.tm-notice strong{color:#c2410c}.tm-case-price{font-size:1.35rem;font-weight:900;color:#dc2626;line-height:1.2}.tm-area-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.tm-area-chips span{display:inline-flex;background:#eef5ff;color:#123f8c;border:1px solid rgba(18,63,140,.18);border-radius:999px;padding:5px 10px;font-weight:800;font-size:.88rem}.tm-two-card{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.tm-compact-list{margin:10px 0 0;padding-left:1.1em}.tm-compact-list li{margin:.25em 0}.tm-small-note{font-size:.86rem;color:#64748b;margin-top:10px}.tm-card--danger{border:2px solid rgba(220,38,38,.25);background:#fff1f2}.tm-card--success{border:2px solid rgba(22,163,74,.25);background:#f0fdf4}@media(max-width:768px){.tm-proof-list,.tm-two-card{grid-template-columns:1fr}.tm-compare-table{min-width:680px}.tm-table-wrap{margin-left:-2px;margin-right:-2px}.tm-proof-item{padding:12px}}
+
+/* v18 conversion reinforcement */
+.tm-grid--5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.tm-compare-table .tm-label{margin-left:4px;vertical-align:middle;background:#f97316;color:#fff}
+@media(max-width:1024px){.tm-grid--5{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.tm-grid--5{grid-template-columns:1fr}}
 </style>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -186,6 +192,16 @@
             "itemOffered": {
               "@type": "Service",
               "name": "軽トラ引越し"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "軽トラLプラン 20,000円〜",
+            "priceCurrency": "JPY",
+            "price": "20000",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "標準的な単身引越し向け軽トラLプラン"
             }
           },
           {
@@ -511,7 +527,12 @@
 <span class="tm-badge">所沢市周辺対応</span>
 <span class="tm-badge">地域最安値</span>
 <span class="tm-badge">単身・軽トラ対応</span>
+<span class="tm-badge">口コミ320件超</span>
+<span class="tm-badge">年間対応500件超</span>
+<span class="tm-badge">貨物保険加入済</span>
 <span class="tm-badge">フォームで簡単予約</span>
+<span class="tm-badge">しつこい営業なし</span>
+<span class="tm-badge">所沢市周辺は出張交通費無料</span>
 </div>
 <h1><span>所沢市の安い・格安引っ越し業者なら</span><span class="tm-h1-brand">所沢引越しconnect</span><span class="tm-h1-sub">単身・軽トラ・小さな引っ越し対応</span></h1>
 <p class="tm-hero__lead">所沢市周辺で、地域最安値の安い引越しを提供。荷物少量・家具家電のみ運搬から、単身引越し・ファミリー引越しまで対応。不用品回収を含む便利屋作業までまとめて相談できます。</p>
@@ -564,9 +585,12 @@
 <article class="tm-card"><div class="tm-card-body"><h3>お客様ごとのご要望に合わせた提案</h3><p>「できるだけ安くしたい」「急ぎで相談したい」「引越しと便利屋作業をまとめたい」など、状況に合わせて金額や作業内容をご提案します。</p></div></article>
 </div>
 <div class="tm-grid tm-grid--3" style="margin-top:18px">
-<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>A様｜単身引越し</h3><p>料金が分かりやすく、問い合わせから当日の作業まで丁寧に対応してもらえました。荷物が少ない引っ越しだったので、費用も抑えられて助かりました。</p></div></article>
-<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>B様｜家具家電のみ運搬</h3><p>冷蔵庫や洗濯機などの家具家電も丁寧に運んでもらえて安心しました。急ぎの相談でもやり取りが早く、当日の作業もスムーズでした。</p></div></article>
-<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>C様｜引越し＋不用品回収</h3><p>引越しと一緒に不用品の相談もでき、退去前の片付けが楽になりました。大手より相談しやすく、またお願いしたいと思いました。</p></div></article>
+<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>A様｜所沢市｜単身引越し</h3><p>料金が分かりやすく、問い合わせから当日の作業まで丁寧に対応してもらえました。荷物が少ない引っ越しだったので、費用も抑えられて助かりました。</p></div></article>
+<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>B様｜入間市｜軽トラ引越し</h3><p>冷蔵庫や洗濯機などの家具家電も丁寧に運んでもらえて安心しました。急ぎの相談でもやり取りが早く、当日の作業もスムーズでした。</p></div></article>
+<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>C様｜清瀬市｜家具家電のみ運搬</h3><p>冷蔵庫だけ・洗濯機だけなど、家具家電のみの運搬でも相談しやすく、作業も丁寧で安心できました。</p></div></article>
+<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>D様｜東村山市｜引越し＋不用品回収</h3><p>引越しと一緒に不用品の相談もでき、退去前の片付けが楽になりました。大手より相談しやすく、またお願いしたいと思いました。</p></div></article>
+<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>E様｜所沢市｜冷蔵庫・洗濯機運搬</h3><p>大型家電だけの運搬でしたが、搬出入も慎重で、建物や荷物への配慮がありました。少量でも頼みやすかったです。</p></div></article>
+<article class="tm-card tm-review-quote"><div class="tm-card-body"><h3>F様｜所沢市｜即日引越し</h3><p>急ぎの引っ越しでしたが、空き状況をすぐ確認してもらえました。フォーム後の連絡も早く、当日まで不安なく進められました。</p></div></article>
 </div>
 <div class="tm-trust-shortcode">[trustindex no-registration=google]</div>
 <!-- 口コミ専用ページ作成後、ここに内部リンクを設定する -->
@@ -578,7 +602,7 @@
 <div class="tm-container">
 <details class="tm-details tm-toc">
 <summary>ページ内メニューを開く</summary>
-<div class="tm-details__body tm-grid tm-grid--3"><a href="#cheap">安い引越し・簡単予約</a><a href="#reviews">口コミ・地域No.1</a><a href="#services">対応できる引越し</a><a href="#price">料金目安</a><a href="#examples">ご相談例・料金モデル</a><a href="#quality">丁寧な作業</a><a href="#compare">他社との違い</a><a href="#caution">安い業者選びの注意点</a><a href="#benriya">便利屋作業</a><a href="#area">対応エリア</a><a href="#trust">事業者情報・許可情報</a><a href="#faq">よくある質問</a><a href="#related">関連ページ一覧</a></div>
+<div class="tm-details__body tm-grid tm-grid--3"><a href="#cheap">安い引越し・簡単予約</a><a href="#reviews">口コミ・地域No.1</a><a href="#services">対応できる引越し</a><a href="#price">料金目安</a><a href="#examples">ご相談例・料金モデル</a><a href="#quality">丁寧な作業</a><a href="#compare">他社との違い</a><a href="#caution">安い業者選びの注意点</a><a href="#benriya">便利屋作業</a><a href="#flow">見積もりから作業までの流れ</a><a href="#area">対応エリア</a><a href="#trust">事業者情報・許可情報</a><a href="#faq">よくある質問</a><a href="#related">関連ページ一覧</a></div>
 </details>
 </div>
 </section>
@@ -625,14 +649,30 @@
 <p class="tm-lead">軽バン6,000円〜・軽トラ10,000円〜。一般的な単身引越しは、荷物量・距離・階段作業・建物条件により料金が変動します。</p>
 </div>
 <div class="tm-media" style="margin-bottom:20px"><img alt="所沢市周辺の安い引越し料金を確認するイメージ" decoding="async" loading="lazy" src="https://connect-moving.com/wp-content/uploads/2026/04/S__30498849.jpg"/></div>
+<h3 class="tm-subtitle">料金プラン早見表</h3>
+<div class="tm-table-wrap" style="margin-bottom:20px">
+<table class="tm-compare-table">
+<thead><tr><th>プラン</th><th>料金目安</th><th>荷物量の目安</th><th>おすすめ</th></tr></thead>
+<tbody>
+<tr><td>軽バンS</td><td>6,000円〜</td><td>段ボール15箱程度</td><td>荷物が最小限の方</td></tr>
+<tr><td>軽バンM</td><td>10,000円〜</td><td>段ボール20箱以上・小物中心</td><td>段ボール中心の単身引越し</td></tr>
+<tr><td>軽トラS</td><td>10,000円〜</td><td>大型1点・家具家電1点</td><td>冷蔵庫だけ・洗濯機だけの運搬</td></tr>
+<tr><td>軽トラM</td><td>15,000円〜</td><td>大型2点・家具少なめ</td><td>家具家電が少ない一人暮らし</td></tr>
+<tr><td><strong>軽トラL <span class="tm-label">一番人気</span></strong></td><td><strong>20,000円〜</strong></td><td>荷台全体を使う単身荷物</td><td><strong>標準的な単身引越し</strong></td></tr>
+<tr><td>軽トラLL</td><td>25,000円〜</td><td>荷物多め・積み込み量多め</td><td>単身でも荷物が多い方</td></tr>
+</tbody>
+</table>
+</div>
 <div class="tm-grid tm-price-grid">
 <article class="tm-card tm-card--blue"><div class="tm-card-img tm-price-img"><img alt="軽バン引越しプランの料金と荷物量イメージ" decoding="async" loading="lazy" src="https://connect-moving.com/wp-content/uploads/2026/05/keibann.png"/></div><div class="tm-card-body"><h3>軽バン引っ越し 6,000円〜</h3><p>段ボール中心・衣類・小型家具など、荷物が少ない近距離引越し向けです。</p><p class="tm-card-link"><a class="tm-text-link" href="https://connect-moving.com/home/keiban-hikkoshi/">軽バン引越しを見る</a></p></div></article>
 <article class="tm-card tm-card--yellow"><div class="tm-card-img tm-price-img"><img alt="軽トラ引越しプランの料金と荷物量イメージ" decoding="async" loading="lazy" src="https://connect-moving.com/wp-content/uploads/2026/05/keitora.png"/></div><div class="tm-card-body"><h3>軽トラ引越 10,000円〜</h3><p>冷蔵庫・洗濯機・ベッドなど、家具家電がある単身引越し向けです。</p><p class="tm-card-link"><a class="tm-text-link" href="https://connect-moving.com/home/keitorahikkosi/">軽トラ引越しを見る</a></p></div></article>
+<article class="tm-card tm-emphasis-card"><div class="tm-card-body"><span class="tm-label">一番人気</span><h3>軽トラLプラン 20,000円〜｜標準的な単身引越しに人気</h3><p>冷蔵庫・洗濯機・ベッド・棚・段ボールなど、一般的な一人暮らしの荷物量で選ばれやすいプランです。安い単身引越しでも、荷物量に合った車両で無理なく運びます。</p><p class="tm-card-link"><a class="tm-text-link" href="https://connect-moving.com/home/ryoukin/">軽トラL料金を見る</a></p></div></article>
+<article class="tm-card tm-card--green"><div class="tm-card-body"><h3>出張交通費無料エリア</h3><p>所沢市・入間市・清瀬市・東村山市・小平市・東大和市・武蔵村山市など、所沢市周辺は出張交通費無料で対応します。対象エリア外も、荷物量・距離・日程を確認してご案内します。</p><p class="tm-card-link"><a class="tm-text-link" href="#area">対応エリアを見る</a></p></div></article>
 <article class="tm-card tm-card--accent"><div class="tm-card-img tm-price-img"><img alt="引越しオプション料金を確認するイメージ" decoding="async" loading="lazy" src="https://connect-moving.com/wp-content/uploads/2026/05/unnamed.jpg"/></div><div class="tm-card-body"><h3>単身引越しの料金目安</h3><p>一般的な一人暮らしの荷物量では、軽トラL前後になるケースが多く、20,000円〜30,000円前後が目安です。</p><p class="tm-card-link"><a class="tm-text-link" href="https://connect-moving.com/home/gaisanmitumori/">概算見積もりを見る</a></p></div></article>
 <article class="tm-card"><div class="tm-card-body"><h3>料金が変動する主な条件</h3><p>階段作業、エレベーター、駐車位置、建物養生、洗濯機脱着、ベッド分解組立、作業員追加、不用品回収の有無で料金が変わります。</p><p class="tm-card-link"><a class="tm-text-link" href="https://connect-moving.com/home/ryoukin/">料金ページを見る</a></p></div></article>
 <article class="tm-card"><div class="tm-card-body"><h3>概算見積もりで料金目安を確認</h3><p>荷物量・希望日・建物条件を送るだけで、対応できるプランと料金目安をご案内します。</p><p class="tm-card-link"><a class="tm-text-link" href="https://connect-moving.com/home/gaisanmitumori/">概算見積もりを見る</a></p></div></article>
 </div>
-<div class="tm-notice"><strong>料金注記：</strong>軽バン6,000円〜・軽トラ10,000円〜は、近距離・荷物少量など条件が合う場合の料金目安です。一般的な単身引越しは、荷物量・距離・階段作業・建物条件により料金が変動します。フォームから荷物量と建物条件を送っていただくことで、対応できるプランと料金目安をご案内します。</div>
+<div class="tm-notice"><strong>料金注記：</strong>軽バン6,000円〜・軽トラ10,000円〜は、近距離・荷物少量など条件が合う場合の料金目安です。料金は荷物量・距離・階段作業・駐車位置・建物条件・繁忙期により変動します。写真・フォーム内容を確認後、対応できるプランと料金目安をご案内します。確定見積もり後、荷物量・作業条件の変更がない場合は、当日の追加料金が出ないよう事前確認を行います。</div>
 <div class="tm-cta-row"><a class="tm-btn tm-btn--blue" href="https://connect-moving.com/home/ryoukin/">詳しい料金表を見る</a><a class="tm-btn tm-btn--primary" href="https://connect-moving.com/home/gaisanmitumori/">概算見積もりページへ</a><a class="tm-btn tm-btn--ghost" href="https://connect-moving.com/home/otoiawase/">フォームで簡単予約</a></div>
 </div>
 </section><section class="tm-section tm-section--soft" id="examples">
@@ -730,6 +770,23 @@
 <article class="tm-card"><div class="tm-card-body"><h3>草刈り・雑務</h3><p>空き家・実家・退去前後の草刈り、片付け、簡単な雑務も相談できます。</p><p class="tm-card-link"><a class="tm-text-link" href="https://connect-moving.com/home/tokorozawbenriya/">便利屋サービスを見る</a></p></div></article>
 </div>
 <div class="tm-card tm-card--green" style="margin-top:22px"><div class="tm-card-body" style="text-align:center"><h3>引越しと一緒に頼みたい作業はフォームにまとめて入力できます</h3><div class="tm-cta-row"><a class="tm-btn tm-btn--primary" href="https://connect-moving.com/home/otoiawase/">お問い合わせフォームへ</a><a class="tm-btn tm-btn--tel" href="tel:08094666110">電話</a><a class="tm-btn tm-btn--line" href="https://lin.ee/ks2lTHC">LINE</a></div></div></div>
+</div>
+</section>
+<section class="tm-section tm-section--cream" id="flow">
+<div class="tm-container">
+<div class="tm-section-head">
+<p class="tm-eyebrow">FLOW</p>
+<h2 class="tm-title">見積もりから作業までの流れ</h2>
+<p class="tm-lead">引越しは問い合わせフォームを最優先にしています。お急ぎの場合は電話・LINEから直接ご連絡ください。</p>
+</div>
+<div class="tm-grid tm-grid--5">
+<article class="tm-card"><div class="tm-card-body"><span class="tm-label">STEP 1</span><h3>問い合わせフォームから荷物量・希望日・建物条件を送信</h3><p>まずはフォームから、荷物内容・希望日・住所エリア・階数・エレベーターの有無をお送りください。</p></div></article>
+<article class="tm-card"><div class="tm-card-body"><span class="tm-label">STEP 2</span><h3>写真や入力内容をもとに荷物量を確認</h3><p>冷蔵庫・洗濯機・ベッド・段ボール数などを確認し、軽バン・軽トラなど適した車両を判断します。</p></div></article>
+<article class="tm-card"><div class="tm-card-body"><span class="tm-label">STEP 3</span><h3>概算料金と対応プランをご案内</h3><p>荷物量・距離・階段作業・追加作業の有無を確認し、対応できるプランと料金目安をご案内します。</p></div></article>
+<article class="tm-card"><div class="tm-card-body"><span class="tm-label">STEP 4</span><h3>日程調整・作業内容の最終確認</h3><p>希望日、到着時間、搬出入条件、駐車位置、不用品回収や家具組立の有無を確認します。</p></div></article>
+<article class="tm-card"><div class="tm-card-body"><span class="tm-label">STEP 5</span><h3>当日作業・搬出入対応</h3><p>確認した内容に沿って、養生・運搬・搬入・配置まで丁寧に対応します。</p></div></article>
+</div>
+<div class="tm-card tm-card--accent" style="margin-top:22px"><div class="tm-card-body" style="text-align:center"><h3>まずはフォームで荷物量と希望日を送ってください</h3><p>電話が苦手な方でも、フォーム・LINE・メール・SMSで相談できます。急ぎの引っ越しは電話またはLINEから直接ご連絡ください。</p><div class="tm-cta-row"><a class="tm-btn tm-btn--primary" href="https://connect-moving.com/home/otoiawase/">フォームで簡単予約</a><a class="tm-btn tm-btn--tel" href="tel:08094666110">電話で急ぎ相談</a><a class="tm-btn tm-btn--line" href="https://lin.ee/ks2lTHC">LINEで直接相談</a></div></div></div>
 </div>
 </section>
 <section class="tm-section tm-section--white" id="area">
